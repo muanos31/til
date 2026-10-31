@@ -1,0 +1,16 @@
+# 2026-10/30_2(Day 3: 브랜치)
+[200~## 배운 것
+- 브랜치: 원본(main)을 건드리지 않고 따로 작업하는 복사본
+- git switch -c 이름: 브랜치 만들고 이동 / git switch 이름: 이동
+- git merge 이름: 받는 쪽 브랜치로 먼저 가서 합친다
+- Fast-forward: main에 새 커밋이 없으면 앞으로 당기기만 한다
+- 진짜 merge: 양쪽 다 커밋이 있으면 merge 커밋이 새로 생긴다
+- HEAD -> main: 지금 내 위치 / origin/main: GitHub 위치
+- vim 탈출: Esc → :wq → Enter
+- ls, cd, pwd는 터미널 기본 명령, git은 따로 설치한 프로그램이라 앞에 붙인다
+- 경로는 지금 위치 기준이다 (이상하면 pwd 먼저)
+
+## 헷갈린 것
+- --oneline 을 --online 으로 씀 → Tab 자동완성 쓰기
+- commit 전에 merge 해서 Fast-forward가 됨
+- clone은 처음 한 번만
